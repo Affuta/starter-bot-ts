@@ -1,0 +1,35 @@
+{
+  "name": "starter-bot-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@angular/cli": "9.1.0",
+    "jquery": "3.4.1",
+    "tslint-config-airbnb": "5.11.2",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3",
+    "gts": "^1.1.2",
+    "prettier": "2.0.2",
+    "tslint": "6.1.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "",
+    "compile": "tsc -p . && npm run copy:config",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "fix": "gts fix",
+    "prettier": "prettier --config ./.prettierrc --write \"src/**/*{.ts,.js,.json,.css,.scss,.html}\"",
+    "prepare": "npm.cmd run compile",
+    "pretest": "npm.cmd run compile",
+    "posttest": "npm.cmd run check",
+    "copy:config": "cp 'bot.json' ./starter-bot-js/bot.json'"
+  },
+  "author": "",
+  "license": "ISC"
+}

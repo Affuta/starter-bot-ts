@@ -1,5 +1,5 @@
 
-# Typescript Starter
+# Typescript Starter Bot
 Typescript starter bot for the Entelect Challenge 2020
 
 ## Quick start

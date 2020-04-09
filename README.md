@@ -3,6 +3,7 @@
 Typescript starter bot for the Entelect Challenge 2020
 
 ## Quick start
+- Run npm install
 - Update the bot.json file with your personal details.
 - Run npm compile to create the javascript bot. 
 - Default location will be the starter-bot-ts directory
